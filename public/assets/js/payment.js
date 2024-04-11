@@ -22,7 +22,7 @@ document.getElementById("total-amt").onclick = async function () {
     description: "Test Transaction",
     image: "assets/images/logo.svg",
     handler: function (response) {
-     //alert(response.razorpay_payment_id);
+    alert(response.razorpay_payment_id);
       
     //console.log("Payment successful. Redirecting...");
 
