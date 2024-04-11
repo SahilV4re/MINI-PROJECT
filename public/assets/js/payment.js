@@ -22,11 +22,11 @@ document.getElementById("total-amt").onclick = async function () {
     description: "Test Transaction",
     image: "assets/images/logo.svg",
     handler: function (response) {
-      // alert(response.razorpay_payment_id);
+     //alert(response.razorpay_payment_id);
       
-      console.log("Payment successful. Redirecting...");
+    //console.log("Payment successful. Redirecting...");
 
-      window.location.href = "http://127.0.0.1:5500/MINI/success.html"
+      window.location.href = "http://127.0.0.1:5500/QR-CODE-DINING-DELIGHT-main/MINI/success.html"
     },
     prefill: {
       name: "Gaurav Kumar",

@@ -14,7 +14,7 @@ const itemsList = [
         id: 1,
         name: 'Burger',
         desc: 'test',
-        price: 100,
+        price: 70,
         image: '',
     },
     {
@@ -35,7 +35,7 @@ const itemsList = [
         id:4,
         name: 'Chicken Biryani',
         desc:'test',
-        price:700,
+        price: 300,
         image:'',
     },
     {
@@ -49,7 +49,7 @@ const itemsList = [
         id:6,
         name:'Fish',
         desc:"test",
-        price:490,
+        price:400,
         image:'',
     }
 ]
