@@ -26,7 +26,7 @@ document.getElementById("total-amt").onclick = async function () {
       
     //console.log("Payment successful. Redirecting...");
 
-      window.location.href = "http://127.0.0.1:5500/QR-CODE-DINING-DELIGHT-main/MINI/success.html"
+      window.location.href = "http://127.0.0.1:5500/MINI/success.html"
     },
     prefill: {
       name: "Gaurav Kumar",
